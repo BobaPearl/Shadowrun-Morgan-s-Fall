@@ -173,7 +173,7 @@
       <base>1</base>
       <karma>0</karma>
       <metatypecategory>Special</metatypecategory>
-      <totalvalue>2</totalvalue>
+      <totalvalue>1</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
@@ -1613,29 +1613,29 @@
   </qualities>
   <lifestyles>
     <lifestyle>
-      <sourceid>559653df-a9af-44e2-9e04-3044c1d1b421</sourceid>
-      <guid>65692e3d-a68a-4850-97dc-76fbbe3d5498</guid>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
+      <guid>c6291e5b-5956-42f0-8c8f-58dbabb4b85e</guid>
       <name>Projects</name>
-      <cost>0</cost>
-      <dice>1</dice>
-      <lp>2</lp>
-      <baselifestyle>Street</baselifestyle>
-      <multiplier>20</multiplier>
-      <months>1</months>
+      <cost>2000</cost>
+      <dice>3</dice>
+      <lp>3</lp>
+      <baselifestyle>Low</baselifestyle>
+      <multiplier>60</multiplier>
+      <months>0</months>
       <roommates>0</roommates>
       <percentage>100</percentage>
       <area>0</area>
       <comforts>0</comforts>
       <security>0</security>
-      <basearea>0</basearea>
-      <basecomforts>0</basecomforts>
-      <basesecurity>0</basesecurity>
-      <maxarea>1</maxarea>
-      <maxcomforts>1</maxcomforts>
-      <maxsecurity>1</maxsecurity>
+      <basearea>2</basearea>
+      <basecomforts>2</basecomforts>
+      <basesecurity>2</basesecurity>
+      <maxarea>3</maxarea>
+      <maxcomforts>3</maxcomforts>
+      <maxsecurity>3</maxsecurity>
       <costforearea>0</costforearea>
-      <costforcomforts>50</costforcomforts>
-      <costforsecurity>50</costforsecurity>
+      <costforcomforts>0</costforcomforts>
+      <costforsecurity>0</costforsecurity>
       <allowbonuslp>False</allowbonuslp>
       <bonuslp>0</bonuslp>
       <source>SR5</source>
@@ -1644,11 +1644,11 @@
       <primarytenant>True</primarytenant>
       <type>Standard</type>
       <increment>Month</increment>
-      <sourceid>559653df-a9af-44e2-9e04-3044c1d1b421</sourceid>
+      <sourceid>451eef87-d18e-4bee-a972-1ee165b08522</sourceid>
       <lifestylequalities>
         <lifestylequality>
           <sourceid>ff0cb981-4459-46e7-ab75-d8c5bcb0c486</sourceid>
-          <guid>14516e61-aeb8-4e0a-b6c3-c7e3052751b2</guid>
+          <guid>dbf4d8da-b1b7-4688-a6cf-420825d90b32</guid>
           <name>Cramped</name>
           <category>Negative</category>
           <extra />
@@ -1669,13 +1669,12 @@
           <source>SR5</source>
           <page>370</page>
           <allowed />
-          <bonus>
-          </bonus>
+          <bonus />
           <notes />
         </lifestylequality>
         <lifestylequality>
           <sourceid>ae63d09f-22a1-4c27-bc99-d82887fcef15</sourceid>
-          <guid>358c1adc-eb5e-4e27-8809-06de44c76d09</guid>
+          <guid>c0b21d99-6dc9-4ccb-968c-68bd8e60b5b0</guid>
           <name>Dangerous Area</name>
           <category>Negative</category>
           <extra />
@@ -1696,15 +1695,40 @@
           <source>SR5</source>
           <page>374</page>
           <allowed />
-          <bonus>
-          </bonus>
+          <bonus />
+          <notes />
+        </lifestylequality>
+        <lifestylequality>
+          <sourceid>4d2bac20-5051-4035-8959-2286c0879686</sourceid>
+          <guid>180cc154-ba85-451f-881e-9731251e1c5f</guid>
+          <name>Datahost Subscription</name>
+          <category>Contracts</category>
+          <extra />
+          <cost>250</cost>
+          <multiplier>0</multiplier>
+          <basemultiplier>0</basemultiplier>
+          <lp>0</lp>
+          <areamaximum>0</areamaximum>
+          <comfortsmaximum>0</comfortsmaximum>
+          <securitymaximum>0</securitymaximum>
+          <area>0</area>
+          <comforts>0</comforts>
+          <security>0</security>
+          <contributetolimit>True</contributetolimit>
+          <print>True</print>
+          <lifestylequalitytype>Contracts</lifestylequalitytype>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <source>CF</source>
+          <page>80</page>
+          <allowed />
+          <bonus />
           <notes />
         </lifestylequality>
       </lifestylequalities>
       <freegrids>
         <lifestylequality>
           <sourceid>adaf6b3d-874a-42e5-b08b-37adf1222f23</sourceid>
-          <guid>9649f928-ac78-492a-9906-e8214f427fef</guid>
+          <guid>7265c991-7e2a-4bda-83f5-772ef3168c2e</guid>
           <name>Grid Subscription</name>
           <category>Entertainment - Asset</category>
           <extra>Public Grid</extra>
@@ -1721,12 +1745,11 @@
           <contributetolimit>True</contributetolimit>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
-          <lifestylequalitysource>Selected</lifestylequalitysource>
+          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
           <source>RF</source>
           <page>222</page>
           <allowed>Medium,High,Luxury</allowed>
-          <bonus>
-          </bonus>
+          <bonus />
           <notes />
         </lifestylequality>
       </freegrids>
@@ -2709,52 +2732,6 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>Unarmed Combat</improvedname>
-      <sourcename>132c861d-296e-4f82-96a6-82bad2a63432</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>Unarmed Combat</improvedname>
-      <sourcename>132c861d-296e-4f82-96a6-82bad2a63432</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
       <improvedname>Fire</improvedname>
       <sourcename>f5a7381d-7ea4-4f7a-8e8c-57931fbdd8e1</sourcename>
       <min>0</min>
@@ -2870,6 +2847,52 @@
       <notes />
     </improvement>
     <improvement>
+      <target />
+      <improvedname>DEP</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>1</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EssenceLoss</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>EDG</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>-1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EdgeUse</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
       <unique>precedence0</unique>
       <target />
       <improvedname />
@@ -2918,18 +2941,41 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>DEP</improvedname>
-      <sourcename />
+      <improvedname>Unarmed Combat</improvedname>
+      <sourcename>132c861d-296e-4f82-96a6-82bad2a63432</sourcename>
       <min>0</min>
-      <max>1</max>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Public Grid</improvedname>
+      <sourcename>7265c991-7e2a-4bda-83f5-772ef3168c2e</sourcename>
+      <min>0</min>
+      <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Attribute</improvementttype>
-      <improvementsource>EssenceLoss</improvementsource>
+      <improvementttype>Text</improvementttype>
+      <improvementsource>Quality</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -2944,22 +2990,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>47428208-821e-48c2-888d-fde97997d611</guid>
-      <date>2020-05-18T19:00:01</date>
-      <amount>5080</amount>
-      <reason>Starting Nuyen</reason>
-      <type>Nuyen</type>
-      <refund>False</refund>
-      <forcecareervisible>False</forcecareervisible>
-      <undo>
-        <karmatype>ImproveAttribute</karmatype>
-        <nuyentype>ManualAdd</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>641cd25f-a515-4d29-87d3-362f66cc0243</guid>
       <date>2020-05-18T19:00:01</date>
       <amount>7</amount>
@@ -2970,6 +3000,22 @@
       <undo>
         <karmatype>ManualAdd</karmatype>
         <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>47428208-821e-48c2-888d-fde97997d611</guid>
+      <date>2020-05-18T19:00:01</date>
+      <amount>5080</amount>
+      <reason>Starting Nuyen</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -2991,6 +3037,15 @@
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>d65d9b28-2466-49c5-9769-7151b7abf6ad</guid>
+      <date>2020-05-27T16:06:30</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Street</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
   </expenses>
   <gearlocations />
   <armorlocations />
@@ -3002,7 +3057,7 @@
     <source>SG</source>
     <source>SR5</source>
     <source>RG</source>
-    <source>RF</source>
+    <source>CF</source>
   </sources>
   <customdatadirectorynames />
   <plugins>
@@ -3014,9 +3069,9 @@
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "b675846f-26bc-459c-9d9f-cbafa2a24af3",
+    "id": "3a182963-fa5b-4337-a826-f3b47a3015cb",
     "visibility": {
-      "id": "4dd10897-76a1-42cc-a97b-cabe22976528",
+      "id": "352982f1-9639-4732-b915-f2249ed211d1",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -3029,7 +3084,7 @@
   "id": "9ff7e737-ba60-4d60-a908-0d7d09e7202a",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2020-05-19T02:00:31.4985955Z",
+  "lastChange": "2020-05-27T23:06:30.5451245Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
