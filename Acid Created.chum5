@@ -63,7 +63,7 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>12</maxavail>
-  <nuyen>80</nuyen>
+  <nuyen>9480.0</nuyen>
   <startingnuyen>140000</startingnuyen>
   <sumtoten>17</sumtoten>
   <buildkarma>35</buildkarma>
@@ -101,9 +101,9 @@
       <metatypemax>5</metatypemax>
       <metatypeaugmax>9</metatypeaugmax>
       <base>3</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>5</totalvalue>
     </attribute>
     <attribute>
       <name>REA</name>
@@ -111,9 +111,9 @@
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
       <base>4</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>7</totalvalue>
+      <totalvalue>9</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -151,9 +151,9 @@
       <metatypemax>5</metatypemax>
       <metatypeaugmax>9</metatypeaugmax>
       <base>2</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>WIL</name>
@@ -161,9 +161,9 @@
       <metatypemax>6</metatypemax>
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
-      <karma>0</karma>
+      <karma>1</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>3</totalvalue>
+      <totalvalue>4</totalvalue>
     </attribute>
     <attribute>
       <name>EDG</name>
@@ -227,7 +227,7 @@
     </attribute>
   </attributes>
   <magenabled>True</magenabled>
-  <initiategrade>0</initiategrade>
+  <initiategrade>1</initiategrade>
   <resenabled>False</resenabled>
   <submersiongrade>0</submersiongrade>
   <depenabled>False</depenabled>
@@ -1035,7 +1035,64 @@
       </group>
     </groups>
   </newskills>
-  <contacts />
+  <contacts>
+    <contact>
+      <name>Jesse</name>
+      <role>Fence</role>
+      <location>The Matrix</location>
+      <connection>2</connection>
+      <loyalty>1</loyalty>
+      <metatype>A.I.</metatype>
+      <sex>Unknown</sex>
+      <age>Young</age>
+      <contacttype>Swag</contacttype>
+      <preferredpayment>Cash (Credstick)</preferredpayment>
+      <hobbiesvice>Entertainment (Action Trideos)</hobbiesvice>
+      <personallife>None of Your Damn Business</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes />
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>3a2c0fae-28ad-46c4-bfb8-30464e9f05fb</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+    <contact>
+      <name>Theodore Flipz</name>
+      <role>Hermetic Academic</role>
+      <location>Los Angeles</location>
+      <connection>3</connection>
+      <loyalty>2</loyalty>
+      <metatype>Naga</metatype>
+      <sex>Male</sex>
+      <age>Middle-Aged</age>
+      <contacttype>Shadow Services</contacttype>
+      <preferredpayment>Cash (Corp Scrip)</preferredpayment>
+      <hobbiesvice>Personal Grooming (Clothes)</hobbiesvice>
+      <personallife>In Relationship</personallife>
+      <type>Contact</type>
+      <file />
+      <relative />
+      <notes />
+      <groupname />
+      <colour>0</colour>
+      <group>False</group>
+      <family>False</family>
+      <blackmail>False</blackmail>
+      <free>False</free>
+      <groupenabled>True</groupenabled>
+      <guid>06bce916-6464-4785-90de-3372f4be2a86</guid>
+      <mainmugshotindex>-1</mainmugshotindex>
+      <mugshots />
+    </contact>
+  </contacts>
   <spells />
   <foci />
   <stackedfoci />
@@ -1180,7 +1237,7 @@
       <pointsperlevel>1</pointsperlevel>
       <adeptway>0</adeptway>
       <action />
-      <rating>2</rating>
+      <rating>3</rating>
       <extrapointcost>0.5</extrapointcost>
       <levels>True</levels>
       <maxlevels>3</maxlevels>
@@ -1621,7 +1678,7 @@
       <lp>3</lp>
       <baselifestyle>Low</baselifestyle>
       <multiplier>60</multiplier>
-      <months>0</months>
+      <months>-3</months>
       <roommates>0</roommates>
       <percentage>100</percentage>
       <area>0</area>
@@ -1669,7 +1726,8 @@
           <source>SR5</source>
           <page>370</page>
           <allowed />
-          <bonus />
+          <bonus>
+          </bonus>
           <notes />
         </lifestylequality>
         <lifestylequality>
@@ -1695,7 +1753,8 @@
           <source>SR5</source>
           <page>374</page>
           <allowed />
-          <bonus />
+          <bonus>
+          </bonus>
           <notes />
         </lifestylequality>
         <lifestylequality>
@@ -1721,7 +1780,8 @@
           <source>CF</source>
           <page>80</page>
           <allowed />
-          <bonus />
+          <bonus>
+          </bonus>
           <notes />
         </lifestylequality>
       </lifestylequalities>
@@ -1745,11 +1805,12 @@
           <contributetolimit>True</contributetolimit>
           <print>True</print>
           <lifestylequalitytype>Entertainment</lifestylequalitytype>
-          <lifestylequalitysource>BuiltIn</lifestylequalitysource>
+          <lifestylequalitysource>Selected</lifestylequalitysource>
           <source>RF</source>
           <page>222</page>
           <allowed>Medium,High,Luxury</allowed>
-          <bonus />
+          <bonus>
+          </bonus>
           <notes />
         </lifestylequality>
       </freegrids>
@@ -2399,11 +2460,36 @@
     </gear>
   </gears>
   <vehicles />
-  <metamagics />
+  <metamagics>
+    <metamagic>
+      <sourceid>406f096a-c093-4a02-b60f-002eb01a20b9</sourceid>
+      <guid>de60fa3a-a6d0-43e7-a206-8299e783ec5f</guid>
+      <name>Power Point</name>
+      <source>SR5</source>
+      <paidwithkarma>False</paidwithkarma>
+      <page>326</page>
+      <grade>1</grade>
+      <bonus>
+        <adeptpowerpoints>1</adeptpowerpoints>
+      </bonus>
+      <improvementsource>Metamagic</improvementsource>
+      <notes />
+    </metamagic>
+  </metamagics>
   <arts />
   <enhancements />
   <critterpowers />
-  <initiationgrades />
+  <initiationgrades>
+    <initiationgrade>
+      <guid>5c8d01b9-097e-4db7-9c9a-5c24ca251971</guid>
+      <res>False</res>
+      <grade>1</grade>
+      <group>False</group>
+      <ordeal>False</ordeal>
+      <schooling>False</schooling>
+      <notes />
+    </initiationgrade>
+  </initiationgrades>
   <improvements>
     <improvement>
       <unique>group0</unique>
@@ -2754,29 +2840,6 @@
       <notes />
     </improvement>
     <improvement>
-      <target />
-      <improvedname>Disguise</improvedname>
-      <sourcename>60ef799a-e12d-45f2-a22a-4726cf3fd9e0</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>2</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Skill</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
       <unique>Muay Thai</unique>
       <target />
       <improvedname>Unarmed Combat</improvedname>
@@ -2825,8 +2888,31 @@
     </improvement>
     <improvement>
       <target />
+      <improvedname>EDG</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>0</max>
+      <aug>-1</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>EdgeUse</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
       <improvedname>Public Grid</improvedname>
-      <sourcename>9649f928-ac78-492a-9906-e8214f427fef</sourcename>
+      <sourcename>7265c991-7e2a-4bda-83f5-772ef3168c2e</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -2871,18 +2957,18 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>EDG</improvedname>
+      <improvedname>MAG</improvedname>
       <sourcename />
       <min>0</min>
-      <max>0</max>
-      <aug>-1</aug>
+      <max>1</max>
+      <aug>0</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
       <improvementttype>Attribute</improvementttype>
-      <improvementsource>EdgeUse</improvementsource>
+      <improvementsource>Initiation</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -2893,10 +2979,32 @@
       <notes />
     </improvement>
     <improvement>
-      <unique>precedence0</unique>
       <target />
-      <improvedname />
-      <sourcename>332da01b-6ff2-4cd2-92bf-e0e62311b458</sourcename>
+      <improvedname>MAGAdept</improvedname>
+      <sourcename />
+      <min>0</min>
+      <max>1</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>0</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Initiation</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>Disguise</improvedname>
+      <sourcename>60ef799a-e12d-45f2-a22a-4726cf3fd9e0</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -2905,30 +3013,7 @@
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>InitiativeDice</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname>REA</improvedname>
-      <sourcename>332da01b-6ff2-4cd2-92bf-e0e62311b458</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>2</aug>
-      <augmax>0</augmax>
-      <val>0</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>Attribute</improvementttype>
+      <improvementttype>Skill</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -2964,18 +3049,65 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>Public Grid</improvedname>
-      <sourcename>7265c991-7e2a-4bda-83f5-772ef3168c2e</sourcename>
+      <improvedname />
+      <sourcename>de60fa3a-a6d0-43e7-a206-8299e783ec5f</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>AdeptPowerPoints</improvementttype>
+      <improvementsource>Metamagic</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>precedence0</unique>
+      <target />
+      <improvedname />
+      <sourcename>332da01b-6ff2-4cd2-92bf-e0e62311b458</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>3</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>InitiativeDice</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname>REA</improvedname>
+      <sourcename>332da01b-6ff2-4cd2-92bf-e0e62311b458</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>3</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
-      <improvementttype>Text</improvementttype>
-      <improvementsource>Quality</improvementsource>
+      <improvementttype>Attribute</improvementttype>
+      <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
       <customid />
@@ -2990,22 +3122,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>641cd25f-a515-4d29-87d3-362f66cc0243</guid>
-      <date>2020-05-18T19:00:01</date>
-      <amount>7</amount>
-      <reason>Starting Karma</reason>
-      <type>Karma</type>
-      <refund>False</refund>
-      <forcecareervisible>False</forcecareervisible>
-      <undo>
-        <karmatype>ManualAdd</karmatype>
-        <nuyentype>AddCyberware</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>47428208-821e-48c2-888d-fde97997d611</guid>
       <date>2020-05-18T19:00:01</date>
       <amount>5080</amount>
@@ -3016,6 +3132,22 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>641cd25f-a515-4d29-87d3-362f66cc0243</guid>
+      <date>2020-05-18T19:00:01</date>
+      <amount>7</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -3046,6 +3178,325 @@
       <refund>False</refund>
       <forcecareervisible>False</forcecareervisible>
     </expense>
+    <expense>
+      <guid>dc94424f-c7bf-4ad5-991b-7f830a04a760</guid>
+      <date>2020-08-12T12:22:52</date>
+      <amount>50</amount>
+      <reason>Mission Reward</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b3aae217-de7b-4e01-bee5-d2c4d95193ac</guid>
+      <date>2020-08-12T12:23:10</date>
+      <amount>-25</amount>
+      <reason>Attribute AGI 4 -&gt; 5</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>AGI</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>8f868091-a384-4b52-a79e-c364f9a50375</guid>
+      <date>2020-08-12T12:23:36</date>
+      <amount>-30</amount>
+      <reason>Attribute REA 5 -&gt; 6</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>REA</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c87e10dc-3878-4106-93a9-82a9da3de5d7</guid>
+      <date>2020-08-12T12:23:44</date>
+      <amount>50</amount>
+      <reason>Mission Reward</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>bf45ea48-4205-4562-af2c-b7458a0b9ef1</guid>
+      <date>2020-08-12T12:24:05</date>
+      <amount>-20</amount>
+      <reason>Attribute LOG 3 -&gt; 4</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>LOG</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>88c7c539-73c4-4ecc-851b-6f88c2613ac6</guid>
+      <date>2020-08-12T12:24:06</date>
+      <amount>-20</amount>
+      <reason>Attribute WIL 3 -&gt; 4</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>WIL</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>2186ea3c-13e5-41dc-9376-50eab4fb46ed</guid>
+      <date>2020-08-12T12:24:29</date>
+      <amount>50</amount>
+      <reason>Mission Reward</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f507e5f7-b8eb-418d-a808-ca71b9996674</guid>
+      <date>2020-08-12T13:05:51</date>
+      <amount>24000</amount>
+      <reason>Mission Reward</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>99cbc645-ca86-480a-b15e-200a8c4ed661</guid>
+      <date>2020-08-12T13:06:12</date>
+      <amount>-3650.0</amount>
+      <reason>Purchased Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>IncreaseLifestyle</nuyentype>
+        <objectid>c6291e5b-5956-42f0-8c8f-58dbabb4b85e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f0999afe-9ce1-4dbf-81a0-55f7f567a9c0</guid>
+      <date>2020-08-12T13:06:14</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>de7f0089-1703-4a9e-927a-2c46e515ea52</guid>
+      <date>2020-08-12T13:06:15</date>
+      <amount>-3650.0</amount>
+      <reason>Purchased Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>IncreaseLifestyle</nuyentype>
+        <objectid>c6291e5b-5956-42f0-8c8f-58dbabb4b85e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>67f5ea50-6545-40f2-a596-cc9bbc22d9bf</guid>
+      <date>2020-08-12T13:06:17</date>
+      <amount>-3650.0</amount>
+      <reason>Purchased Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>IncreaseLifestyle</nuyentype>
+        <objectid>c6291e5b-5956-42f0-8c8f-58dbabb4b85e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>5713a717-a378-4356-a539-311f58eac2ea</guid>
+      <date>2020-08-12T13:06:17</date>
+      <amount>-3650.0</amount>
+      <reason>Purchased Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>IncreaseLifestyle</nuyentype>
+        <objectid>c6291e5b-5956-42f0-8c8f-58dbabb4b85e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>010be972-cbe0-49e3-9a95-b5596ed14897</guid>
+      <date>2020-08-12T13:06:21</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>284800b6-214c-4a92-8904-d931552dbdf9</guid>
+      <date>2020-08-12T14:08:00</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>ce00b776-a61c-44ab-b7c0-4e8f1cf34a3b</guid>
+      <date>2020-08-12T14:08:01</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>9d76bed6-833e-4936-86f9-98de2c70fbe7</guid>
+      <date>2020-08-12T14:08:01</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>39498fa4-9141-4d8e-972f-3c2ee6c0b670</guid>
+      <date>2020-08-12T14:08:02</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>da6a37c1-7c9c-48d1-b399-61d4c752284f</guid>
+      <date>2020-08-12T14:08:02</date>
+      <amount>0</amount>
+      <reason>Decremented Lifestyle Low</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+    </expense>
+    <expense>
+      <guid>5b1fc703-2566-4e89-8031-45849d665dec</guid>
+      <date>2020-08-12T14:10:33</date>
+      <amount>-13</amount>
+      <reason>Initiate Grade 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveInitiateGrade</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>5ba0dd68-cc57-42f7-bd72-ad5394d0409e</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>a0ee2374-6ed9-455d-9ad4-04e110c1db06</guid>
+      <date>2020-08-12T14:11:06</date>
+      <amount>-13</amount>
+      <reason>Initiate Grade 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveInitiateGrade</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>31bba861-59f1-482e-93e8-c76dbde1ef70</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>122d610a-fa73-46cc-bf64-4a1fb29a5029</guid>
+      <date>2020-08-12T14:11:27</date>
+      <amount>-16</amount>
+      <reason>Initiate Grade 1 -&gt; 2</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveInitiateGrade</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>0557e496-5fb2-413a-9708-ba3080d7e22a</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>69ef5024-06a3-4892-9fe3-0f4ebf12866d</guid>
+      <date>2020-08-12T14:20:50</date>
+      <amount>-13</amount>
+      <reason>Initiate Grade 0 -&gt; 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <forcecareervisible>False</forcecareervisible>
+      <undo>
+        <karmatype>ImproveInitiateGrade</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>5c8d01b9-097e-4db7-9c9a-5c24ca251971</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations />
   <armorlocations />
@@ -3058,6 +3509,7 @@
     <source>SR5</source>
     <source>RG</source>
     <source>CF</source>
+    <source>RF</source>
   </sources>
   <customdatadirectorynames />
   <plugins>
@@ -3069,9 +3521,9 @@
   "myHash": null,
   "language": "en-us",
   "siNnerMetaData": {
-    "id": "3a182963-fa5b-4337-a826-f3b47a3015cb",
+    "id": "149a8635-e5a3-4200-b8c2-23294f31e858",
     "visibility": {
-      "id": "352982f1-9639-4732-b915-f2249ed211d1",
+      "id": "ee0cd6b4-10b9-4dc5-ac90-16bed17c8e46",
       "isPublic": true,
       "isGroupVisible": true,
       "userRights": null
@@ -3084,7 +3536,7 @@
   "id": "9ff7e737-ba60-4d60-a908-0d7d09e7202a",
   "downloadUrl": null,
   "uploadDateTime": null,
-  "lastChange": "2020-05-27T23:06:30.5451245Z",
+  "lastChange": "2020-08-12T21:20:50.4073617Z",
   "fileName": null
 }</ChummerHub.Client>
   </plugins>
